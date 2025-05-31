@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhanalakshmi A | Portfolio</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #0d0d0d;
+        color: white;
+      }
+
+      header {
+        text-align: center;
+        padding: 160px 40px 60px;
+        background: linear-gradient(to right, #000000, #1a1a1a);
+      }
+
+      header h1 {
+        position: absolute;
+        left: 10%;
+        top: 80px;
+        font-size: 3rem;
+        color: #00f0ff;
+        text-shadow: 0 0 15px #00f0ff;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        color: #ccc;
+        position: absolute;
+        left: 10%;
+        top: 130px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 30px 0;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        color: #00f0ff;
+        text-decoration: none;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s ease-in-out;
+      }
+
+      nav a:hover {
+        border-bottom: 2px solid #00f0ff;
+        color: #fff;
+      }
+
+      section {
+        padding: 80px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+        color: #00f0ff;
+        text-align: center;
+        text-shadow: 0 0 15px #00f0ff;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(0, 240, 255, 0.3);
+        border-radius: 15px;
+        padding: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 0 20px rgba(0, 240, 255, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 30px;
+        background-color: #000;
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      a {
+        color: #00f0ff;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+      .profile-img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+
+        box-shadow: 0 0 15px #00f0ff;
+        margin-bottom: 20px;
+        position: absolute;
+        right: 15%;
+        top: 6%;
+      }
+      .main1 {
+        position: absolute;
+        left: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="Dhana.jpg"
+        alt="Dhanalakshmi Profile Photo"
+        class="profile-img"
+      />
+      <div class="main1"></div>
+      <h1>Dhanalakshmi A</h1>
+      <p>Web Developer | Java Programmer | Full-Stack Learner</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          Hi! I'm a passionate Computer Science student from Chennai, Tamil
+          Nadu. I'm currently interning at Prodigy and building real-time
+          projects. I love coding in Java, creating frontend designs, and
+          exploring full-stack development. I aim to build software that solves
+          real-world problems with clean, efficient code.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>🚗 DA Travels Website</h3>
+        <p>
+          Developed a real-time responsive travel website using HTML, CSS, and
+          JavaScript.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🛡 Women's Safety System</h3>
+        <p>
+          Created an IoT device with NodeMCU, GPS & GSM for real-time emergency
+          alerting.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎮 Tic Tac Toe & Stopwatch</h3>
+        <p>
+          Built interactive JavaScript games and tools to showcase UX and logic
+          skills.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>🌐 Frontend: HTML, CSS, JavaScript</li>
+          <li>🧠 Data Structures & Algorithms</li>
+          <li>☕ Java (OOP)</li>
+          <li>🛠 Tools: Git, VS Code</li>
+          <li>🗃️ SQL Basics</li>
+          <li>🧩 Soft Skills: Teamwork, Communication, Time Management</li>
+        </ul>
+      </div>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">
+        <p>
+          🌟 Fresher with hands-on internship experience at Prodigy, working on
+          real-time projects including responsive websites and interactive
+          JavaScript tools. Eager to apply skills in web development and
+          software engineering in a professional environment.
+        </p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <p>
+          <strong>B.Sc. Computer Science</strong><br />
+          Meenakshi College For Women(Autonomous) Kodambakkam<br />
+          2022 – 2025<br />
+          CGPA: 9.21
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>📞 <strong>+91 7550187695</strong></p>
+        <p>
+          📧
+          <a href="mailto:dhanalakshmi16052005@gmail.com"
+            >dhanalakshmi16052005@gmail.com</a
+          >
+        </p>
+        <p>
+          🔗
+          <a href="https://github.com/Dhana-lakshmiA" target="_blank">GitHub</a>
+          |
+          <a
+            href="https://linkedin.com/in/dhanalakshmi-a-17a882328"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Dhanalakshmi A | Built with ❤️ and HTML</p>
+    </footer>
+  </body>
+</html>
